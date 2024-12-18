@@ -99,7 +99,7 @@ const Today = () => {
 
   const cardHeight = expandAnimation.interpolate({
     inputRange: [0, 1],
-    outputRange: [280, 500], 
+    outputRange: [260, 500], 
   });
 
   const arrowRotationInterpolation = arrowRotation.interpolate({
