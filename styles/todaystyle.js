@@ -58,7 +58,7 @@ const styles = StyleSheet.create({
     alignItems: 'center',
   },
   weatherDescription: {
-    fontSize: width * 0.04,  // Adjust font size based on screen width
+    fontSize: width * 0.032,  // Adjust font size based on screen width
     color: '#fff',
     marginTop: 4,
     textAlign: 'center',
@@ -68,9 +68,9 @@ const styles = StyleSheet.create({
   },
   card2: { 
     position: 'absolute', 
-    top: height * 0.52,  // Position based on screen height
+    top: height * 0.50,  // Position based on screen height
     width: width * 0.85,  // 85% of screen width
-    height: height * 0.3,  // 30% of screen height
+    height: height * 0.33,  // 30% of screen height
     padding: 10, 
     backgroundColor: '#3F508D', 
     borderRadius: 10 
@@ -176,26 +176,26 @@ const styles = StyleSheet.create({
   },
   hourlyItem: {
     width: width * 0.25,  // 25% of screen width
-    height: height * 0.2,  // 20% of screen height
+    height: height * 0.24,  // 20% of screen height
     alignItems: 'center',
     justifyContent: 'center',
     marginHorizontal: 10, 
     backgroundColor: '#4E62AA',  // Adjust background color as needed
-    borderRadius: 30,  // Oval shape: large border-radius creates the oval effect
-    paddingVertical: 8, // Adjust padding to prevent overflow
+    borderRadius: 28,  // Oval shape: large border-radius creates the oval effect
+    paddingVertical: 5, // Adjust padding to prevent overflow
     paddingHorizontal: 10,  // Added horizontal padding to make the content fit  
     elevation: 5,  // Optional: to add shadow effect for depth
   },
   hourText: {
     color: '#fff',
     fontSize: 16, 
-    marginTop: -8,
+    marginTop: -5,
   },
   weicon: {
-    width: 80,  // Reduced size for the icon to fit inside the oval card
-    height: 80, 
+    width: 75,  // Reduced size for the icon to fit inside the oval card
+    height: 75, 
     marginBottom: 5,
-    marginBottom: -15,
+    marginBottom: -18,
   },
 });
 
